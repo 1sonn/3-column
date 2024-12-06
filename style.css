@@ -1,0 +1,80 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(0, 0%, 95%);
+}
+.container{
+    display: flex;
+    width: min(64vw, 624px);
+    border-radius: 10px;
+}
+.box{
+    width: 33.3%;
+    padding: 20px;
+    color: white;
+}
+.sedans{
+    background: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+.sedans .learn-more{
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+.sedans .learn-more:hover{
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.suvs{
+    background: hsl(184, 100%, 22%);
+}
+.suvs .learn-more{
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+.suvs .learn-more:hover{
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+.luxury .learn-more{
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+.luxury .learn-more:hover{
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
+img{
+    width: 50px;
+}
+h1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.learn-more{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 40px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
